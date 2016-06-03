@@ -1,7 +1,7 @@
 project(PBA)
 
 if(NOT IS_MSVC)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -O3 -pthread -march=core2 -mfpmath=sse")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -O3 -pthread -march=core2 -mfpmath=sse -std=c++03")
 endif()
 
 if(CUDA_ENABLED)

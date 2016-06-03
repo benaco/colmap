@@ -17,8 +17,8 @@
 #ifndef COLMAP_SRC_BASE_UNDISTORTION_H_
 #define COLMAP_SRC_BASE_UNDISTORTION_H_
 
-#include <QtCore/QtCore>
-#include <QtGui/QtGui>
+#include <QtCore>
+#include <QtGui>
 
 #include "base/reconstruction.h"
 #include "util/bitmap.h"

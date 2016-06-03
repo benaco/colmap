@@ -17,7 +17,7 @@
 #define BOOST_TEST_MAIN
 #define BOOST_TEST_MODULE "base/homography_matrix"
 #include <boost/test/unit_test.hpp>
-#include <iostream>
+
 #include <Eigen/Geometry>
 
 #include "base/homography_matrix.h"

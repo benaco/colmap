@@ -9,14 +9,10 @@ include_directories(
     ${GLEW_INCLUDE_DIRS}
     ${Qt5Core_INCLUDE_DIRS}
     ${Qt5OpenGL_INCLUDE_DIRS}
-    ${PROJECT_SOURCE_DIR}/../include
-    /usr/local/include
 )
 
 link_directories(
     ${Boost_LIBRARY_DIRS}
-    ${PROJECT_SOURCE_DIR}/../lib
-    /usr/local/lib
 )
 
 set(COLMAP_LIBRARIES
@@ -110,11 +106,11 @@ add_library(
     ${SFM_SRC}
     ${TOOLS_SRC}
     ${UI_SRC}
-    ${UTIL_SRC}
-)
+    ${UTIL_SRC})
 
 # Prevent the library from being compiled automatically.
 set_target_properties(
     ${COLMAP_SRC_ROOT_FOLDER} PROPERTIES
     EXCLUDE_FROM_ALL 1
     EXCLUDE_FROM_DEFAULT_BUILD 1)
+

@@ -21,7 +21,6 @@
 #include "base/projection.h"
 #include "base/triangulation.h"
 #include "util/logging.h"
-#include "util/types.h"
 #include "util/math.h"
 
 namespace colmap {

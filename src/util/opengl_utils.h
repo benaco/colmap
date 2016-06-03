@@ -19,7 +19,7 @@
 
 #include <iostream>
 
-#include <QtOpenGL/QtOpenGL>
+#include <QtOpenGL>
 
 namespace colmap {
 

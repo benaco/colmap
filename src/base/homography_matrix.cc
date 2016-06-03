@@ -23,7 +23,6 @@
 #include "base/pose.h"
 #include "util/logging.h"
 #include "util/math.h"
-#include <iostream>
 
 namespace colmap {
 namespace {

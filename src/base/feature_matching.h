@@ -24,10 +24,10 @@
 
 #include <boost/filesystem.hpp>
 
-#include <QtCore/QMutex>
-#include <QtGui/QOffscreenSurface>
-#include <QtGui/QOpenGLContext>
-#include <QtCore/QThread>
+#include <QMutex>
+#include <QOffscreenSurface>
+#include <QOpenGLContext>
+#include <QThread>
 
 #include "base/database.h"
 #include "ext/SiftGPU/SiftGPU.h"

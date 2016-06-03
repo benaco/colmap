@@ -6,7 +6,7 @@ set(SIFT_GPU_PREFER_GLUT TRUE)
 if(NOT IS_MSVC)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
     if(SIFT_GPU_ENABLE_SSE)
-        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=core2 -mfpmath=sse")
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=core2 -mfpmath=sse -std=c++03")
     endif()
 endif()
 
